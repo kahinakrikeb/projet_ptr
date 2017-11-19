@@ -1,0 +1,11 @@
+
+
+
+compare: compare.o main.o
+	gcc -o campare campare.o main.o
+
+compare.o: campare.c
+	gcc -o campare.o -c campare.c -W -Wall -ansi -pedantic
+
+main.o: main.c campare.h
+	gcc -o main.o -c main.c -W -Wall -ansi -pedantic
