@@ -16,6 +16,11 @@ void* train_de_A_vers_C(void* arg);
 void* train_de_D_vers_A(void* arg);
 
 
+
+
+
+
+
 /* Moniteur : gestion du chemin de fer  */
 void utiliser_le_segment(int ville_depart, int ville_arrivee)
 {
